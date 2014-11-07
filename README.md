@@ -24,10 +24,12 @@ Syntax!
 ```java -jar wifiplug userName password deviceId|list onOff verbose serverName serverPort```
 
 Params:
-```    userName               - your user name (string)
+```
+    userName               - your user name (string)
     password               - your password (string)
     deviceId               - device to switch or keyword `list` (without `) for list (string)
     onOff                  - switch on or off target device (string)
     verbose                - (optional) dump irrelevant info (integer)
     serverName             - (optional) server domain or ip address (string)
-    serverPort             - (optional) server port (integer)```
+    serverPort             - (optional) server port (integer)
+```
