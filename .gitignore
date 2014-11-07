@@ -1,0 +1,4 @@
+.idea/*
+/WifiPlug*
+.DS_Store
+/out/production/*
