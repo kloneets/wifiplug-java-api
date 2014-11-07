@@ -19,14 +19,15 @@ With currently built .jar you can list all your devices and switch them on and o
 
 1. `java -jar out/artifacts/WifiPlug_jar/WifiPlug.jar h` to get help
 2. `java -jar wifiplug <userName> <password> list`  to connect and print your device list
+
 Syntax!
-`java -jar wifiplug userName password deviceId|list onOff verbose serverName serverPort`
+```java -jar wifiplug userName password deviceId|list onOff verbose serverName serverPort```
 
 Params:
-``    userName               - your user name (string)
+```    userName               - your user name (string)
     password               - your password (string)
     deviceId               - device to switch or keyword `list` (without `) for list (string)
     onOff                  - switch on or off target device (string)
     verbose                - (optional) dump irrelevant info (integer)
     serverName             - (optional) server domain or ip address (string)
-    serverPort             - (optional) server port (integer)``
+    serverPort             - (optional) server port (integer)```
