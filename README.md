@@ -15,6 +15,8 @@ With currently built .jar you can list all your devices and switch them on and o
 
 ### I build this with [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
+Requires java 1.8+
+
 ## Examples
 
 1. `java -jar out/artifacts/WifiPlug_jar/WifiPlug.jar h` to get help
@@ -28,7 +30,7 @@ Params:
     userName               - your user name (string)
     password               - your password (string)
     deviceId               - device to switch or keyword `list` (without `) for list (string)
-    onOff                  - switch on or off target device (string)
+    onOff                  - switch on or off target device (string - case sensitive - lowercase only)
     verbose                - (optional) dump irrelevant info (integer)
     serverName             - (optional) server domain or ip address (string)
     serverPort             - (optional) server port (integer)
